@@ -1,3 +1,5 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap')
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -5,11 +7,12 @@
     margin: 0;
     box-sizing: border-box;
 
- /* General styles */
+    /* General styles */
 
 }
+
 body {
-  
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -29,9 +32,9 @@ header {
 /* main content */
 
 main {
-background-color:lightblue;
-/* Make main element take up any surplus space to push footer down */
-flex:  1 0 auto;
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 
 }
 
@@ -39,6 +42,15 @@ flex:  1 0 auto;
 
 footer {
 
-background-color: orange;
+    background-color: orange;
 
+}
+
+/* google font thing */
+
+.oswald-uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
